@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const port = 5000
+const port = process.env.port || 5000
 const path = require('path')
 const mongoose = require("mongoose")
 const mongoURI = 'mongodb+srv://ritiksingh9708:rfcvgtbh@cluster0.oqp87cm.mongodb.net/gofoodmern?retryWrites=true&w=majority&appName=Cluster0'
